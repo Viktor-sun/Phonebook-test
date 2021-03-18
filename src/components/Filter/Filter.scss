@@ -1,0 +1,28 @@
+.filter__field {
+  outline: none;
+  display: block;
+  border-radius: 2px;
+  border: 2px solid #ccc;
+  padding: 10px;
+  &:focus {
+    border: 2px solid #fbd62a;
+  }
+}
+
+.filter__input {
+  outline: none;
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  border: 2px solid #ccc;
+  padding: 10px;
+  &:focus {
+    border: 2px solid #fbd62a;
+  }
+}
+
+.filter__label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
